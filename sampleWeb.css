@@ -1,0 +1,49 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {}
+
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+    padding: 0px 30px;
+}
+
+.headerLogo {}
+
+.headerMenu {
+    margin: 0px 20px;
+    text-align: end;
+    font-weight: bold;
+    font-size: large;
+}
+
+.titleHeader h3 {
+    margin: 30px;
+    text-align: center;
+}
+
+.userTag {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 2px solid rgba(0, 0, 0, 0.669);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.669);
+}
+
+.userLogo {
+    display: grid;
+    grid-template-columns: auto 2fr;
+    padding: 0px 30px;
+}
+
+.publishedDate {
+    text-align: end;
+    padding: 0px 30px;
+}

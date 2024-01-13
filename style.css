@@ -1,0 +1,30 @@
+
+.absolute{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  border: 1px solid rgba(255, 0, 0, 0.415);
+  /* border-radius: 40px; */
+  margin: 20px;
+  background-color: papayawhip;
+  text-align: center;
+  justify-content: center;
+}
+
+.fixedHeader{
+  text-align: center;
+  background-color: papayawhip;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  margin: 0px;
+  padding: 10px;
+  color: red;
+}
+
+.absolute:hover {
+  color: blue;
+  background-color: bisque;
+  cursor: pointer;
+}
